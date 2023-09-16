@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #eeeeee;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.todo-form {
+  margin-bottom: 20px;
+}
+
+.todo-form label {
+  font-size: 16px;
+}
+
+.todo-form input[type="text"] {
+  width: 50%;
+  padding: 8px;
+  margin-right: 20px;
+}
+
+.todo-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.todo-form button:hover {
+  background-color: #0056b3;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Stack the list items vertically */
+  align-items: center; /* Center align the list items horizontally */
+}
+
+.todo {
+  width: 100%; /* Make the list items take the full width */
+  max-width: 300px; /* Limit the list items' maximum width */
+  display: flex;
+  justify-content: space-between; /* Spread items horizontally */
+  align-items: center;
+  border: 1px solid #ddd; /* Add a border for better visual separation */
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.todo input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.todo button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  margin-left: auto;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.todo button:hover {
+  background-color: #c82333;
+}
